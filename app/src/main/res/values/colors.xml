@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="degrade1">#D0EEFF</color>
+    <color name="degrade2">#ABE6FF</color>
+    <color name="degrade3">#7DD3FC</color>
+    <color name="cor_botao">#0284C7</color>
+    <color name="texto_principal">#0F172A</color>
+    <color name="red">#DC2626</color>
+</resources>
