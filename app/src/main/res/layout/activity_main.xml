@@ -9,6 +9,15 @@
     android:background="@drawable/bgbackground"
     tools:context=".MainActivity">
 
+    <!--
+        Atributos do TextInputLayout solicitados:
+        - app:helperText: Define a mensagem de apoio/ajuda exibida abaixo do campo de entrada.
+        - app:helperTextTextColor: Define a cor do texto da mensagem de apoio.
+        - app:counterEnabled: Ativa a exibição do contador visual de caracteres no canto inferior direito.
+        - app:counterMaxLength: Define o limite máximo de caracteres exibido no contador.
+        - app:endIconMode: Define a funcionalidade do ícone ao final do campo (ex: "clear_text" adiciona um botão para apagar o texto digitado).
+    -->
+
     <Spinner
         android:id="@+id/Genero"
         android:layout_width="0dp"
@@ -57,7 +66,7 @@
         android:textSize="18sp"
         app:fontFamily="@font/funland"
         android:backgroundTint="@color/cor_botao"
-        android:drawableLeft="@drawable/hourglass"
+        android:drawableStart="@drawable/hourglass"
         android:drawablePadding="8dp"
         app:layout_constraintTop_toBottomOf="@id/tilIdade"
         app:layout_constraintStart_toStartOf="parent"
